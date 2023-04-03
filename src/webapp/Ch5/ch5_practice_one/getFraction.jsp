@@ -17,6 +17,7 @@
     <jsp:getProperty name="fraction" property="number"/>
     表示成分数是：<br>
     <jsp:getProperty name="fraction" property="numerator"/>
+    /
     <jsp:getProperty name="fraction" property="denominator"/>
 </p>
 <h4>2200249068 林丹丹</h4>
