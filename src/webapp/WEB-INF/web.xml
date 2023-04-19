@@ -8,4 +8,23 @@
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
+    <servlet>
+        <servlet-name>drawPolygon</servlet-name>
+        <servlet-class>Ch6.ch6_practice_one.moon.sun.DrawPolygon_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>drawPolygon</servlet-name>
+        <url-pattern>/drawPolygon</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>Ch6.ch6_practice_one.moon.sun.hello</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/lookHello</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
