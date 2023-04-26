@@ -19,11 +19,20 @@
 
     <servlet>
         <servlet-name>hello</servlet-name>
-        <servlet-class>Ch6.ch6_practice_one.moon.sun.hello</servlet-class>
+        <servlet-class>Ch6.ch6_example6_8.hello</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>hello</servlet-name>
         <url-pattern>/lookHello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>guess</servlet-name>
+        <servlet-class>Ch6.ch6_example6_8.Example6_8_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>guess</servlet-name>
+        <url-pattern>/Ch6/ch6_example6_8/guess</url-pattern>
     </servlet-mapping>
 
 

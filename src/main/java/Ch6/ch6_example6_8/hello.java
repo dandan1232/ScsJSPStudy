@@ -1,4 +1,4 @@
-package Ch6.ch6_practice_one.moon.sun;
+package Ch6.ch6_example6_8;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
