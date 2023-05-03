@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<jsp:useBean id="idioms" class="ch5.com.tom.jiafei.ContinueIdioms" scope="application"/>
+<jsp:useBean id="idioms" class="Ch5.com.tom.jiafei.ContinueIdioms" scope="application"/>
 <style>
     #tomStyle {
         font-family: 宋体;

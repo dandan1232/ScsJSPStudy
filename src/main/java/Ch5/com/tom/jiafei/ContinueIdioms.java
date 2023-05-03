@@ -1,4 +1,4 @@
-package ch5.com.tom.jiafei;
+package Ch5.com.tom.jiafei;
 
 import java.util.LinkedList;
 import java.util.Iterator;

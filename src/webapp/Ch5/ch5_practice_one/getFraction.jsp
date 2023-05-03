@@ -12,7 +12,7 @@
 </head>
 <body bgcolor=#B2DFDB>
 <p style="font-family:宋体;font-size:36px;color:#1B5E20">
-    <jsp:useBean id="fraction" class="ch5.com.tom.jiafei.Fraction" scope="request"/>
+    <jsp:useBean id="fraction" class="Ch5.com.tom.jiafei.Fraction" scope="request"/>
     <jsp:setProperty name="fraction" property="number" param="number"/>
     <jsp:getProperty name="fraction" property="number"/>
     表示成分数是：<br>

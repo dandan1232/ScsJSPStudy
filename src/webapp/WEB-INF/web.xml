@@ -36,4 +36,14 @@
     </servlet-mapping>
 
 
+    <servlet>
+        <servlet-name>computer</servlet-name>
+        <servlet-class>Ch7.ch7_example7_1.Example7_1_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>computer</servlet-name>
+        <url-pattern>/Ch7/ch7_example7_1/computer</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
