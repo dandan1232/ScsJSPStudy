@@ -22,7 +22,7 @@
     mess = mess.trim();
     String submit = request.getParameter("submit");
     if (mess.length() == 0) {
-        response.sendRedirect("inputMess.jsp");
+        response.sendRedirect("inputNumber.jsp");
         return;
     }
     Connection con = null;
