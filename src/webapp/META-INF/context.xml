@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context>
+    <Resource
+            name="ldd"
+            type="javax.sql.DataSource"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/bookDatabase?useSSL=false
+                &amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf-8"
+            username="root"
+            password="ldd123789dd"
+            maxActive="15"
+            maxIdle="15"
+            minIdle="1"
+            maxWait="1000"
+    />
+</Context>
