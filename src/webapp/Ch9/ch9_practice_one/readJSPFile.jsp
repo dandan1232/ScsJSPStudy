@@ -29,6 +29,8 @@
         String webDir = request.getContextPath();
         jspPage = jspPage.substring(1);
         webDir = webDir.substring(1);
+        System.out.println(jspPage);
+        System.out.println(webDir);
         File f = new File("");
         String path = f.getAbsolutePath();
 //        int index = path.indexOf("bin");
@@ -37,7 +39,7 @@
         System.out.println(path);
         String tomcatDir = path.substring(0, index);
 
-        File jspFile = new File(tomcatDir + "/webapp/" + webDir, jspPage);
+        File jspFile = new File("D:/Study/"+webDir+"/src/webapp/",jspPage);
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(jspFile), "UTF-8"));
             String line;
