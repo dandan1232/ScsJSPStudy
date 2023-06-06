@@ -45,5 +45,13 @@
         <url-pattern>/Ch7/ch7_example7_1/computer</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>loadFile</servlet-name>
+        <servlet-class>Ch9.ch9_example9_5.Example9_5_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loadFile</servlet-name>
+        <url-pattern>/Ch9/ch9_example9_5/loadFile</url-pattern>
+    </servlet-mapping>
 
 </web-app>
